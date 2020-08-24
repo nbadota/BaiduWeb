@@ -26,8 +26,11 @@ h2 {
     margin: 0;
     border-bottom: 2px solid #fcfcfa;
 
-    line-height: 122px;
+    height: 100%;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     color: #000;
     background-color: #c6c4c4;
