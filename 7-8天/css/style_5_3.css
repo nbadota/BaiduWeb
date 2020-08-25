@@ -1,0 +1,37 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+div {
+    height: 100%;
+}
+
+.content {
+    display: flex;
+}
+
+.left {
+    flex: 0 0 150px;
+
+    background-color: #0ba8e8;
+}
+
+.main {
+    order: 1;
+    flex: 0 0 300px;
+
+    background-color: #00f900;
+}
+
+.right {
+    order: 2;
+    flex: 1 1 auto;
+
+    background-color: #ff2600;
+}

@@ -1,0 +1,28 @@
+/*1开头，对应two_column_1.html*/
+* {
+    margin:0;
+    padding:0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.left {
+    float: left;
+
+    height: 100%;
+    width: 30%;
+
+    background-color: #ff2600;
+}
+
+.right {
+    float: left;
+
+    height: 100%;
+    width: 70%;
+
+    background-color: #0ba8e8;
+}

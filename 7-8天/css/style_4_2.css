@@ -1,0 +1,38 @@
+/*4-2,3,4，对应three_column_2.html*/
+* {
+    margin:0;
+    padding:0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.content {
+    height: 100%;
+}
+
+.left {
+    float: left;
+
+    width: 200px;
+    height: 100%;
+
+    background-color: #0ba8e8;
+}
+
+.right {
+    float: right;
+
+    width: 200px;
+    height: 100%;
+
+    background-color: #ff2600;
+}
+
+.main {
+    height: 100%;
+
+    background-color: #00f900;
+}

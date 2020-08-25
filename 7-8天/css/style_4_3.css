@@ -1,0 +1,36 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.left {
+    position: absolute;
+    left: 0;
+
+    width: 200px;
+    height: 500px;
+
+    background-color: #ff2600;
+}
+
+.right {
+    position: absolute;
+    right: 0;
+
+    width: 200px;
+    height: 500px;
+
+    background-color: #0ba8e8;
+}
+
+.main {
+    margin: 0 200px;
+    height: 500px;
+
+    background-color: #00f900;
+}

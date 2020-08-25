@@ -1,0 +1,38 @@
+/*5开头，对应three_column_2.html*/
+* {
+    margin:0;
+    padding:0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+div {
+    height: 100%;
+}
+
+.left {
+    float: left;
+
+    width: 150px;
+
+    background-color: #0ba8e8;
+}
+
+.main {
+    float: right;
+
+    width: 300px;
+
+    background-color: #00f900;
+}
+
+.right {
+    float: right;
+
+    width: calc(100% - 450px);
+
+    background-color: #ff2600;
+}

@@ -1,0 +1,38 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+div {
+    height: 100%;
+    position: absolute;
+}
+
+.left {
+    left: 0;
+
+    width: 150px;
+
+    background-color: #0ba8e8;
+}
+
+.main {
+    left: 150px;
+
+    width: 300px;
+
+    background-color: #00f900;
+}
+
+.right {
+    left: 450px;
+
+    background-color: #0ba8e8;
+}
+
+

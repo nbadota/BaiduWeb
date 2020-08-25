@@ -22,11 +22,11 @@ h1 {
 h2 {
     float: left;
 
+    height: 100%;
     width: 10%;
     margin: 0;
     border-bottom: 2px solid #fcfcfa;
 
-    height: 100%;
     text-align: center;
     display: flex;
     align-items: center;
