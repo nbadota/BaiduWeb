@@ -162,14 +162,15 @@ header input[type="submit"] {
 
 .course ul {
     margin-top: 70px;
+    width: 100%;
 }
 
 .course li {
     display: inline-block;
-    width: 180px;
+    width: 28%;
     height: 110px;
     padding-top: 140px;
-    margin-left: 10px;
+    margin-left: 20px;
     box-shadow: 0 3px 3px 1px #e5e3e3;
     font-size: .75rem;
     background: url(../img/Hat_icon.png) top center no-repeat;
